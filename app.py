@@ -92,7 +92,7 @@ if st.session_state.page == "Rainfall Prediction":
             # Predict if all inputs are provided
             if all(rainfall_input_df.iloc[0, 2:]):
                 rainfall_prediction = rainfall_model.predict(rainfall_input_df)
-                st.success(f"Predicted Rainfall: {rainfall_prediction[0]}")
+                st.success(f"The Predicted Annual Rainfall for your Subdivision is: {rainfall_prediction[0]}")
             else:
                 st.error("Please enter valid values")
         else:
