@@ -46,7 +46,7 @@ if st.sidebar.button("Rainfall Predicition"):
 # Rainfall Prediction
 if st.session_state.page == "Rainfall Prediction":
     st.title("Rainfall Prediction")
-    st.write("Provide the following information to predict rainfall:")
+    st.write("Provide the following information to predict annual rainfall:")
     st.write("""
     - **Subdivision**: Select your geographical area.
     - **Year**: Enter the year for which you wish to predict rainfall.
