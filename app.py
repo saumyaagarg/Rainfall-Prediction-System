@@ -102,7 +102,7 @@ if st.session_state.page == "Rainfall Prediction":
 
 # Home
 else:
-    img = "img3.png"
+    img = "img4.avif"
     st.title("RainVision")
     st.write("##### Welcome to RainVision, your ultimate Rainfall Prediction App!")
     st.image(img, width=750)
